@@ -1,30 +1,33 @@
 package com.evolution.of.trust.test;
 
-import com.evolution.of.trust.ConsoleOutputWriter;
-import com.evolution.of.trust.OutputWriter;
-import com.evolution.of.trust.Player;
-import com.evolution.of.trust.Winner;
+import com.evolution.of.trust.*;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.runners.MockitoJUnitRunner;
 
-import static javafx.beans.binding.Bindings.when;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
+
+@RunWith(MockitoJUnitRunner.class)
 public class WinnerTest {
 
+    @Mock
+    OutputWriter outputWriter;
     @Test
     public void declareWinnerTest() {
-        Player player1 = new Player("A", 10);
-        Player player2 = new Player("B", 20);
+        Player player1 = new Player("A", 30, new CrimePlayer());
+        Player player2 = new Player("B", 20, new CrimePlayer());
         Winner winner = new Winner();
 
-        OutputWriter outputWriter = new ConsoleOutputWriter();
         winner.declareWinner(player1, player2, outputWriter);
 
         player1.setScore(10);
         player2.setScore(10);
         winner.declareWinner(player1, player2, outputWriter);
+
+        verify(outputWriter).declareWinner(player1);
 
     }
 }

@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee34bf68-45e2-4327-b2f8-f378d592bfd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleInputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleOutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/OutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsolePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CopyCatPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CrimePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/PlayerBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/GameManger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/GameManger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/ScoreCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/evolution/of/trust/ScoreCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/evolution/of/trust/test/ScoreCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/evolution/of/trust/test/WinnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/evolution/of/trust/test/WinnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,10 +61,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,32 +108,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CopyCatPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/PlayerBehaviour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="45">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/InputReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,68 +146,33 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/OutputWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding>
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleOutputWriter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsolePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="56" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CrimePlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="51" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +187,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/evolution/of/trust</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -182,17 +202,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/InputReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/OutputWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleInputReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleOutputWriter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/PersonBehaviour.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsolePlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CrimePlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CopyCatPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java" />
       </list>
     </option>
   </component>
@@ -281,7 +306,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544610954567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544616553957" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -304,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameManger">
+  <component name="RunManager" selected="JUnit.WinnerTest.declareWinnerTest">
     <configuration name="GameManger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.evolution.of.trust.GameManger" />
       <module name="com.bootcamp.evolutionOfTrust.main" />
@@ -318,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameMangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.bootcamp.evolutionOfTrust.test" />
       <extension name="coverage">
         <pattern>
@@ -327,12 +352,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.evolution.of.trust.test" />
-      <option name="MAIN_CLASS_NAME" value="com.evolution.of.trust.test.ScoreCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.evolution.of.trust.test.GameMangerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreCalculatorTest.calcIndividualScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameMangerTest.startGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.bootcamp.evolutionOfTrust.test" />
       <extension name="coverage">
         <pattern>
@@ -341,8 +366,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.evolution.of.trust.test" />
-      <option name="MAIN_CLASS_NAME" value="com.evolution.of.trust.test.ScoreCalculatorTest" />
-      <option name="METHOD_NAME" value="calcIndividualScore" />
+      <option name="MAIN_CLASS_NAME" value="com.evolution.of.trust.test.GameMangerTest" />
+      <option name="METHOD_NAME" value="startGameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -382,11 +407,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameManger" />
         <item itemvalue="JUnit.WinnerTest.declareWinnerTest" />
+        <item itemvalue="Application.GameManger" />
+        <item itemvalue="JUnit.GameMangerTest" />
+        <item itemvalue="JUnit.GameMangerTest.startGameTest" />
         <item itemvalue="JUnit.ScoreCalculatorTest.compareInputsAndUpdateScore" />
-        <item itemvalue="JUnit.ScoreCalculatorTest" />
-        <item itemvalue="JUnit.ScoreCalculatorTest.calcIndividualScore" />
       </list>
     </recent_temporary>
   </component>
@@ -404,27 +429,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 45m 20s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 45m 53s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 46m 46s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 47m 03s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 47m 27s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreCalculatorTest_compareInputsAndUpdateScore - 2018.12.12 at 14h 47m 44s.xml">
-      <configuration name="ScoreCalculatorTest.compareInputsAndUpdateScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WinnerTest_declareWinnerTest - 2018.12.12 at 15h 48m 10s.xml">
-      <configuration name="WinnerTest.declareWinnerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WinnerTest_declareWinnerTest - 2018.12.12 at 15h 50m 05s.xml">
       <configuration name="WinnerTest.declareWinnerTest" configurationId="JUnit" />
     </history-entry>
@@ -433,6 +437,27 @@
     </history-entry>
     <history-entry file="WinnerTest_declareWinnerTest - 2018.12.12 at 15h 55m 41s.xml">
       <configuration name="WinnerTest.declareWinnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreCalculatorTest_calculateScoreTest - 2018.12.12 at 16h 27m 23s.xml">
+      <configuration name="ScoreCalculatorTest.calculateScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameMangerTest_startGameTest - 2018.12.12 at 16h 27m 24s.xml">
+      <configuration name="GameMangerTest.startGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameMangerTest_startGameTest - 2018.12.12 at 16h 28m 45s.xml">
+      <configuration name="GameMangerTest.startGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameMangerTest_startGameTest - 2018.12.12 at 16h 28m 50s.xml">
+      <configuration name="GameMangerTest.startGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreCalculatorTest_calculateScoreTest - 2018.12.12 at 16h 29m 02s.xml">
+      <configuration name="ScoreCalculatorTest.calculateScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreCalculatorTest_calculateScoreTest - 2018.12.12 at 16h 29m 47s.xml">
+      <configuration name="ScoreCalculatorTest.calculateScoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameMangerTest - 2018.12.12 at 17h 04m 28s.xml">
+      <configuration name="GameMangerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -454,7 +479,7 @@
       <window_info anchor="bottom" id="SonarLint" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -476,7 +501,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.2732475" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -503,42 +528,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
@@ -550,55 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleInputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/OutputWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -618,29 +562,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/GameMangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsoleInputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/PlayerBehaviour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CrimePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ConsolePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/CopyCatPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/ScoreCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state>
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#775#776#0" expanded="true" />
             <element signature="e#822#823#0" expanded="true" />
           </folding>
@@ -649,8 +649,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/GameManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="36">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/ScoreCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/evolution/of/trust/Winner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/evolution/of/trust/test/WinnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
