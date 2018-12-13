@@ -5,6 +5,7 @@ public class Player {
     private String name;
     private int score;
     private int currentInput;
+    private Player opponent;
     private PlayerBehaviour behaviour;
 
     public Player(String name, int score, PlayerBehaviour behaviour) {
@@ -21,7 +22,7 @@ public class Player {
         return currentInput;
     }
 
-    public void setName (String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -41,12 +42,15 @@ public class Player {
         score += scoreToBeAdded;
     }
 
-    public int play() {
-        this.setCurrentInput(this.behaviour.getInputFromUser());
-        return this.getCurrentInput();
+    public void play() {
+        this.setCurrentInput(this.behaviour.getInputFromUser(getOpponent()));
     }
-//
-//    public void play(int previousInput) {
-//        this.setCurrentInput(previousInput);
-//    }
+
+    public void setOpponent(Player opponent) {
+        this.opponent = opponent;
+    }
+
+    public Player getOpponent() {
+        return this.opponent;
+    }
 }

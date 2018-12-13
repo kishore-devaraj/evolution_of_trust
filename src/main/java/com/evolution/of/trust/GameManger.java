@@ -5,7 +5,6 @@ import jdk.internal.util.xml.impl.Input;
 public class GameManger {
 
     public static int NO_OF_ROUNDS = 5;
-    public static int previousPlayerInput;
 
     InputReader inputReader = new ConsoleInputReader();
     OutputWriter outputWriter = new ConsoleOutputWriter();
@@ -17,9 +16,11 @@ public class GameManger {
     Winner winner = new Winner();
 
     public void startGame() {
+        player1.setOpponent(player2);
+        player2.setOpponent(player1);
         outputWriter.displayGameInfo();
         while(NO_OF_ROUNDS > 0) {
-              previousPlayerInput = player1.play();
+              player1.play();
               player2.play();
 
             scoreCalculator.compareInputAndUpdate(player1, player2);
