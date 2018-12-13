@@ -16,8 +16,8 @@ public class GameManger {
     Winner winner = new Winner();
 
     public void startGame() {
-        player1.setOpponent(player2);
-        player2.setOpponent(player1);
+        player2.setPlayer(player1);
+
         outputWriter.displayGameInfo();
         while(NO_OF_ROUNDS > 0) {
               player1.play();

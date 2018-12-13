@@ -1,21 +1,28 @@
 package com.evolution.of.trust;
 
-public class Player {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Player implements Subject, Observer {
 
     private String name;
     private int score;
     private int currentInput;
-    private Player opponent;
     private PlayerBehaviour behaviour;
+    private List<Player> listOfObservers;
+    private Player opponent;
+    private int opponentInput;
 
     public Player(String name, int score, PlayerBehaviour behaviour) {
         this.name = name;
         this.score = score;
         this.behaviour = behaviour;
+        listOfObservers = new ArrayList<Player>();
     }
 
     public void setCurrentInput(int currentInput) {
         this.currentInput = currentInput;
+        notifyObservers();
     }
 
     public int getCurrentInput() {
@@ -43,14 +50,33 @@ public class Player {
     }
 
     public void play() {
-        this.setCurrentInput(this.behaviour.getInputFromUser(getOpponent()));
+        this.setCurrentInput(this.behaviour.getInputFromUser());
     }
 
-    public void setOpponent(Player opponent) {
+
+    // Methods for Subject
+    public void subscribe (Player observer) {
+        if(observer == null) return;
+        if(!(listOfObservers.contains(observer))) {
+            listOfObservers.add(observer);
+        }
+    }
+
+    public void notifyObservers () {
+        for(Player player : listOfObservers) {
+            player.update(this.getCurrentInput());
+        }
+    }
+
+
+    // Methods to be Observers
+    public void setPlayer (Player opponent) {
         this.opponent = opponent;
+        this.opponent.subscribe(this);
     }
 
-    public Player getOpponent() {
-        return this.opponent;
+    public void update(int currentInputValue) {
+        this.behaviour.setOpponentInput(currentInputValue);
     }
+
 }
