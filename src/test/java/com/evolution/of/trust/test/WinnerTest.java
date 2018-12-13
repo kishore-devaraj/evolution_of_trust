@@ -22,12 +22,18 @@ public class WinnerTest {
         Winner winner = new Winner();
 
         winner.declareWinner(player1, player2, outputWriter);
-
-        player1.setScore(10);
-        player2.setScore(10);
-        winner.declareWinner(player1, player2, outputWriter);
-
         verify(outputWriter).declareWinner(player1);
 
+    }
+
+
+    @Test
+    public void declareTieTest () {
+        Player player1 = new Player("A", 20, new CrimePlayer());
+        Player player2 = new Player("B", 20, new CrimePlayer());
+        Winner winner = new Winner();
+
+        winner.declareWinner(player1, player2, outputWriter);
+        verify(outputWriter).declareTieMessage();
     }
 }
