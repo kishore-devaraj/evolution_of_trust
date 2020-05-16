@@ -1,7 +1,5 @@
 package com.evolution.of.trust;
 
-import jdk.internal.util.xml.impl.Input;
-
 public class GameManger {
 
     public static int NO_OF_ROUNDS = 5;
